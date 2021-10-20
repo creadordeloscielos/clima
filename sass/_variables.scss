@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+$Inter :'Inter', sans-serif;
+
+$blue:#4d13d1;
+$txt-purple:#5a25d4;
+
+@mixin  btn-blue {
+    padding: 15px 30px;
+    background: $blue;
+    color: #fff;
+    border-radius: 5px;
+}
